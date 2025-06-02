@@ -139,3 +139,48 @@ body {
   transform: scale(1.1);
   box-shadow: 0 6px 15px rgba(255, 0, 157, 0.6);
 }
+
+/* Modal custom styles */
+/* Estilo del modal similar al de about.html */
+.modal-content {
+  background-color: #1a1a1a; /* Fondo oscuro */
+  color: #fff;
+  border-radius: 1rem;
+  border: 1px solid #333;
+}
+
+.modal-header,
+.modal-footer {
+  border: none;
+}
+
+.modal-title {
+  color: #ff4fa1; /* Color rosa para el título */
+}
+
+.btn-close-white {
+  filter: invert(1);
+}
+
+.form-control {
+  background-color: #2a2a2a;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+.form-control::placeholder {
+  color: #bbb;
+}
+
+.btn-primary-custom {
+  background-color: #ff4fa1;
+  border: none;
+}
+
+.btn-primary-custom:hover {
+  background-color: #e34391;
+}
+
+.modal-footer a {
+  color: #ff4fa1;
+}
