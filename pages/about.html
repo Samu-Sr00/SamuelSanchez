@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio | Samuel</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../styles/css/about.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg py-3 px-5">
+      <a class="navbar-brand text-white fw-bold" href="#">Samuel.</a>
+      <div class="ms-auto d-flex nav-masthead">
+        <a href="../index.html" class="nav-link">Home</a>
+        <a href="#" class="nav-link active">About</a>
+        <a href="portfolio.html" class="nav-link">Portfolio</a>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <br />
+      <div class="container">
+        <h1>Samuel Sánchez</h1>
+        <p><strong>Software Developer / Data Scientist</strong></p>
+        <div class="contact">
+          <p>
+            🌐
+            <a
+              href="https://www.linkedin.com/in/samuel-j-sanchez"
+              target="_blank"
+              >linkedin.com/in/samuel-j-sanchez</a
+            >
+          </p>
+          <p>📞 (+34) 657 70 59 48</p>
+          <p>📧 samueljsanchez24@gmail.com</p>
+        </div>
+
+        <div class="section">
+          <h2>Professional Profile</h2>
+          <p>
+            Junior software developer passionate about artificial intelligence
+            and scalable software architecture. Basic knowledge of Python, API
+            integration, and databases. Committed to continuous improvement and
+            creating innovative solutions. Additionally, I have experience in
+            frontend development with HTML5, PHP, and Bootstrap for web
+            development, and basic knowledge of Flutter. On the backend, I have
+            experience with MySQL, PostgreSQL, and some exposure to Firebase.
+          </p>
+        </div>
+
+        <div class="section">
+          <h2>Work Experience</h2>
+          <h3>👨‍💻 Intern Programmer – Capgemini | 2022</h3>
+          <ul>
+            <li>
+              Developed user interfaces with Flutter for an internal project.
+            </li>
+            <li>Collaborated in agile teams, applying UI/UX best practices.</li>
+            <li>Integrated APIs and optimized application performance.</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h2>Education & Training</h2>
+          <ul>
+            <li>
+              <strong
+                >🎓 Bootcamp in Data Science & Artificial Intelligence</strong
+              >
+              – Hack a Boss | 2024 - 2025<br />
+              Applied Python in Machine Learning and Generative AI projects.
+              Data modeling and analysis for process optimization. Git
+              workflows. Agile methodologies (SCRUM).
+            </li>
+            <li>
+              <strong>🎓 CFGS Web Development</strong> – CIFP Suances | 2020 -
+              2022<br />
+              Developed web applications with HTML, PHP, Bootstrap, JavaScript,
+              and MySQL.
+            </li>
+            <li>
+              <strong>🎓 High School Diploma in Science & Technology</strong> –
+              IES La Magdalena | 2017 - 2019
+            </li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h2>Technical Skills</h2>
+          <ul>
+            <li>
+              <strong>🖥 Backend:</strong> Python (Streamlit, FastAPI),
+              Microservices, SQL (MySQL, PostgreSQL), PHP
+            </li>
+            <li>
+              <strong>🎨 Frontend:</strong> HTML, JavaScript, Flutter, CSS,
+              Bootstrap
+            </li>
+            <li>
+              <strong>⚙ Tools & DevOps:</strong> Git/GitHub, UX/UI, OpenAI API
+              integration, Agile methodologies (SCRUM)
+            </li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h2>Languages</h2>
+          <ul>
+            <li>🗣 Spanish: Native</li>
+            <li>🗣 English: Intermediate (B1)</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h2>Soft Skills</h2>
+          <ul>
+            <li>✅ Problem-solving</li>
+            <li>✅ Teamwork</li>
+            <li>✅ Assertive communication</li>
+            <li>✅ Organization and leadership</li>
+            <li>✅ Adaptability and self-learning</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Botón de descarga con modal -->
+      <div class="my-4 text-center align-items-center">
+        <p class="text-white">
+          Puedes descargar mi CV en formato PDF para más detalles sobre mi
+          trayectoria profesional.
+        </p>
+        <button
+          class="btn btn-primary"
+          onclick="descargarCV()"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          Descargar CV
+        </button>
+      </div>
+    </div>
+
+    <!-- Modal de confirmación -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content bg-dark text-white">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              ¡CV descargado!
+            </h1>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body text-center">
+            <h5>🎉 ¡Gracias por descargar mi CV!</h5>
+            <p>
+              Espero que te resulte interesante. Puedes contactarme para
+              cualquier oportunidad.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-light" data-bs-dismiss="modal">
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Script para descargar el CV -->
+    <script>
+      function descargarCV() {
+        const link = document.createElement("a");
+        link.href = "../assets/docs/samuel_cv.pdf"; // Asegúrate de que el archivo esté en esta ruta
+        link.download = "Samuel_Sanchez_CV.pdf";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      }
+    </script>
+  </body>
+</html>
