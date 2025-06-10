@@ -227,13 +227,6 @@
         </div>
       </div>
 
-      <!-- Audio -->
-      <audio
-        id="success-sound"
-        src="../assets/audio/success.mp3"
-        preload="auto"
-      ></audio>
-
       <!-- Bootstrap JS -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
@@ -241,8 +234,8 @@
       <script>
         function descargarCV() {
           const link = document.createElement("a");
-          link.href = "../assets/docs/cv_en.pdf";
-          link.download = "Samuel_Sanchez_CV.pdf";
+          link.href = "../assets/docs/Samuel_Sanchez_CVS.zip";
+          link.download = "Samuel_Sanchez_CVS.zip";
           document.body.appendChild(link);
           link.click();
           document.body.removeChild(link);
